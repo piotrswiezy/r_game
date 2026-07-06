@@ -14,9 +14,9 @@ RED = (255, 0, 0)
 GRAY = (127, 127, 127)
 screen.fill(GRAY)
 pygame.display.update()
-uruchom = True
-while uruchom:
+run = True
+while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            uruchom = False
+            run = False
 quit()
